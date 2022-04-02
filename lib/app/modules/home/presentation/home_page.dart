@@ -20,9 +20,13 @@ class _HomePageState extends State<HomePage> {
     programmers.clear();
     programmers.addAll(
       [
-        Programmer(name: 'jhonatan', experiences: 'Flutter, Dart'),
-        Programmer(name: 'Igor', experiences: 'C#, Java'),
-        Programmer(name: 'Laura', experiences: 'C++, Rubi'),
+        Programmer(name: 'jhonatan', experiences: 'Flutter | Dart | JavaScript'),
+        Programmer(name: 'Igor', experiences: 'C# | Java | Pyton'),
+        Programmer(name: 'Laura', experiences: 'C++ | Rubi | TypeScript'),
+        Programmer(name: 'Diego', experiences: 'Swift | Objective-C | Scala'),
+        Programmer(name: 'Geovana', experiences: 'Shell | Perl | Kotlin'),
+        Programmer(name: 'Patrícia', experiences: 'Haskell | CSS | PHP'),
+        Programmer(name: 'Bruno', experiences: 'Swift | Flutter | NativeScript'),
       ],
     );
     setState(() => loading = false);
@@ -71,11 +75,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-
-
-
-
-
-
-
